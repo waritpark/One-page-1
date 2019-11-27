@@ -54,7 +54,7 @@
 }
 .nav {
     display:flex;
-    width:60%;
+    width:52%;
     flex-direction: row;
     list-style: none;
     text-decoration: none;
@@ -63,10 +63,10 @@
 
 }
 .liforme {
-    padding:5px 15px;
+    padding:5px 10px;
     color: black;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 5px;
     color: rgba(255, 255, 255);
 }
 .menu li a:hover ,.menu li.active a{
@@ -131,15 +131,13 @@ width: 100%;
 	text-transform: uppercase;
 }
 .lineundertitle {
-    width: 55px;
     border-bottom: 2px solid #FFF;
-    position: absolute;
-    bottom: -60px;
     margin: 0;
 }
 .titleh3 {
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 1.7em;
+    display: block;
 }
 .heightimgservice {
     height: 52px;
@@ -153,6 +151,17 @@ width: 100%;
 .toptitle{
 	background: rgba(255, 255, 255);
     padding: 3% 0;
+    width:100%;
+}
+.nav2 {
+    display:flex;
+    width:55%;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'caviar_dreamsbold';
+
 }
 
 .titleh3noir {
@@ -169,9 +178,81 @@ width: 100%;
     color: rgba(0, 0, 0);
 }
 .lineundertitle2 {
-    width: 55px;
     border-bottom: 2px solid rgba(73, 84, 91, 0.84);
-    position: absolute;
-    bottom: -480px;
     margin: 0;
+}
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.containerimg {
+    display:flex;
+    width: 100%;
+}
+.marginbot {
+    margin-bottom: 6%;
+}
+
+/* fin portfolio */
+
+
+/* default section */
+
+
+.defaultsection {
+    background: rgba(73, 84, 91, 0.84);
+    padding: 3% 0;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+}
+.formh3 {
+    text-transform: uppercase;
+    width: 40%;
+}
+
+.display-f{
+    display: flex;
+}
+.flexcolumn {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+}
+.flex-end {
+    display:flex; 
+    justify-content: flex-end;
+    width:100%;
+}
+.lineundertitle3 {
+    border-bottom: 2px solid #FFF;
+    margin: 0;
+}
+
+.visitme {
+    border: 2px solid #000000;
+    background:rgba(73, 84, 91, 0.4);
+    color: #000000;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+
+}
+
+/* fin section default */
+
+
+/* twitter */
+
+.twitter {
+    background:#4bcaff;
+    padding: 2% 0;
+    color: rgba(255, 255, 255);
+    font-family: 'roboto';
+}
+.texttwitter {
+    font-family: 'Roboto';
+    font-size:1.7em;
+    line-height: 2em;
+    margin:0;
 }
