@@ -56,7 +56,8 @@ body {
 }
 .nav {
     display:flex;
-    width:52%;
+    justify-content: flex-end;
+    width:100%;
     flex-direction: row;
     list-style: none;
     text-decoration: none;
@@ -151,7 +152,8 @@ width: 100%;
 }
 .nav2 {
     display:flex;
-    width:55%;
+    justify-content: flex-end;
+    width:100%;
     flex-direction: row;
     list-style: none;
     text-decoration: none;
@@ -159,8 +161,11 @@ width: 100%;
     font-family: 'caviar_dreamsbold';
 
 }
-
+.marginbot2 {
+    margin-bottom: 2%;
+}
 .titleh3noir {
+    font-family: 'roboto';
     text-transform: uppercase;
     font-size: 2em;
     color: rgba(73, 84, 91, 0.84);
@@ -245,7 +250,7 @@ width: 100%;
 
 .twitter {
     background:#4bcaff;
-    padding: 2% 0;
+    padding: 4% 0;
     color: rgba(255, 255, 255);
     font-family: 'roboto';
 }
@@ -365,7 +370,7 @@ width: 100%;
 }
 .marginzero2 {
     margin-bottom: 1%;
-    margin-top: 3%;
+    margin-top: 4%;
 }
 .message {
     border: none;
@@ -389,18 +394,8 @@ width: 100%;
     font-family: 'roboto';
     padding-top: 4%;
 }
-
-.rowfooter {
-    display: flex;
-    flex-direction: row;
-}
-.flex-start {
-    display: flex;
-    justify-content: flex-start;
-}
-.flex-end2 {
-    display: flex;
-    justify-content: flex-end;
+.spaceb {
+    justify-content: space-between;
 }
 .padbot2 {
  padding-bottom: 3%;
