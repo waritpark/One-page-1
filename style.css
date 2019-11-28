@@ -195,6 +195,14 @@ width: 100%;
     margin-bottom: 6%;
 }
 
+
+
+/* test img portfolio */
+
+img:hover {
+    filter: brightness(0.2);
+}
+
 /* fin portfolio */
 
 
@@ -366,7 +374,8 @@ width: 100%;
     width: 100%;
     background: rgba(73, 84, 91, 0.1);
     border: 2px solid white;
-    padding: 70px 0;
+    resize: none;
+    padding: 6% 0;
 }
 .marginzero2 {
     margin-bottom: 1%;
