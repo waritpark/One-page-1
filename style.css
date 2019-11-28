@@ -273,7 +273,7 @@ width: 100%;
     background-size: cover;
 }
 .padtop {
-    padding-top: 8%;
+    padding-top: 5%;
 }
 
 .display-column1 {
@@ -320,5 +320,65 @@ width: 100%;
 .marginzero {
     margin :0;
 }
+.walterwhite {
+    color:#4bcaff;
+    font-size: 1em;
+}
 
-/* fin testimonials */ 
+/* fin testimonials */
+
+/* contact */
+
+.imgcontact {
+    background: url(layer.png);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgba(255, 255, 255);
+    font-family: 'roboto';
+}
+.textmaj {
+    text-transform: uppercase;
+}
+.forminput {
+    width: 80%;
+    background: rgba(73, 84, 91, 0.1);
+    border: 2px solid white;
+    padding: 30px 0;
+}
+.flexcolumn2 {
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+}
+.margintop2 {
+    margin-top: 8%;
+}
+.spaceline {
+    line-height: 150%;
+}
+.forminput2 {
+    width: 100%;
+    background: rgba(73, 84, 91, 0.1);
+    border: 2px solid white;
+    padding: 70px 0;
+}
+.marginzero2 {
+    margin-bottom: 1%;
+    margin-top: 3%;
+}
+.message {
+    border: none;
+    background:#4bcaff;
+    color: #ffffff;
+    padding: 15px 0;
+    width: 30%;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    margin-bottom: 6%;
+}
+
+/* fin contact */
+
+
+/* footer */
+
+
