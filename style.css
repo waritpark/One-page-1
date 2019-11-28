@@ -23,7 +23,9 @@
 
 }
 
-
+body {
+    margin:0;
+}
 
 /* header */
 
@@ -381,4 +383,25 @@ width: 100%;
 
 /* footer */
 
+.backgroundfooter {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: rgba(255, 255, 255);
+    font-family: 'roboto';
+    padding-top: 4%;
+}
 
+.rowfooter {
+    display: flex;
+    flex-direction: row;
+}
+.flex-start {
+    display: flex;
+    justify-content: flex-start;
+}
+.flex-end2 {
+    display: flex;
+    justify-content: flex-end;
+}
+.padbot2 {
+ padding-bottom: 3%;
+}
