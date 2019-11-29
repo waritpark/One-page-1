@@ -199,9 +199,20 @@ width: 100%;
 
 /* test img portfolio */
 
+.relative {
+    position: relative;
+}
+.position {
+    position: absolute;
+    z-index: 99;
+    display: none;
+}
+
 img:hover {
     filter: brightness(0.2);
+    
 }
+
 
 /* fin portfolio */
 
