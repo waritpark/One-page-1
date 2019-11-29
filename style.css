@@ -132,7 +132,8 @@ width: 100%;
 }
 .titleh3 {
     text-transform: uppercase;
-    font-size: 1.7em;
+    font-size: 2em;
+    font-family: 'roboto';
     display: block;
     color: rgb(255, 255, 255);
 }
@@ -199,20 +200,30 @@ width: 100%;
 
 /* test img portfolio */
 
-.relative {
+.test{
+    height: 254px;
+    width: 280px;
     position: relative;
 }
-.position {
+.plus {
+    height:100%;
+    width: 100%;
     position: absolute;
-    z-index: 99;
-    display: none;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 4rem;
+    opacity: 0;
 }
 
-img:hover {
-    filter: brightness(0.2);
-    
-}
+.plus:hover {
+    opacity: 0.8;
+    background-color: rgba(0,0,0,0.8);
 
+}
 
 /* fin portfolio */
 
@@ -315,7 +326,7 @@ img:hover {
 }
 .colorsizejohn {
     color: rgba(255, 255, 255);
-    font-family: 'roboto';
+    font-family:'roboto';
     font-size: 1.1em;
 }
 .flex-wrap2{
