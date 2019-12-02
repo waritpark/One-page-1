@@ -372,9 +372,7 @@ width: 100%;
     color: rgba(255, 255, 255);
     font-family: 'roboto';
 }
-.textmaj {
-    text-transform: uppercase;
-}
+
 .forminput {
     width: 80%;
     background: rgba(73, 84, 91, 0.1);
@@ -398,10 +396,6 @@ width: 100%;
     border: 2px solid white;
     resize: none;
     padding: 6% 0;
-}
-.marginzero2 {
-    margin-bottom: 1%;
-    margin-top: 4%;
 }
 .message {
     border: none;
@@ -431,3 +425,5 @@ width: 100%;
 .padbot2 {
  padding-bottom: 3%;
 }
+
+/* fin footer */
