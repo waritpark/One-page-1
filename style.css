@@ -471,9 +471,13 @@ input:focus:invalid {
     font-family: 'caviar_dreamsbold';
 }
 .liform3 {
-    padding:5px 15px;
+    padding:5px 10px;
     text-decoration: none;
     margin: 0;
+    font-size: 1em;
     color: rgba(0, 0, 0);
+}
+.nowrap {
+    flex-wrap: nowrap;
 }
 /* fin footer */
