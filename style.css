@@ -1,16 +1,4 @@
 @font-face {
-    font-family: 'caviar_dreamsbold';
-    src: url('font/Caviar_Dreams_Bold-webfont.eot');
-    src: url('font/Caviar_Dreams_Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('font/Caviar_Dreams_Bold-webfont.woff2') format('woff2'),
-         url('font/Caviar_Dreams_Bold-webfont.woff') format('woff'),
-         url('font/Caviar_Dreams_Bold-webfont.ttf') format('truetype'),
-         url('font/Caviar_Dreams_Bold-webfont.svg#caviar_dreamsbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
     font-family: 'caviar_dreamsregular';
     src: url('font/CaviarDreams-webfont.eot');
     src: url('font/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
@@ -20,9 +8,18 @@
          url('font/CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
-
+@font-face {
+    font-family: 'caviar_dreamsbold';
+    src: url('font/Caviar_Dreams_Bold-webfont.eot');
+    src: url('font/Caviar_Dreams_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Caviar_Dreams_Bold-webfont.woff2') format('woff2'),
+         url('font/Caviar_Dreams_Bold-webfont.woff') format('woff'),
+         url('font/Caviar_Dreams_Bold-webfont.ttf') format('truetype'),
+         url('font/Caviar_Dreams_Bold-webfont.svg#caviar_dreamsbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
     margin:0;
 }
@@ -55,6 +52,7 @@ body {
     width:100%;
 }
 .nav {
+    font-family: 'caviar_dreamsbold';
     display:flex;
     justify-content: flex-end;
     width:100%;
@@ -62,8 +60,6 @@ body {
     list-style: none;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 'caviar_dreamsbold';
-
 }
 .liforme {
     padding:5px 10px;
@@ -132,7 +128,8 @@ width: 100%;
 }
 .titleh3 {
     text-transform: uppercase;
-    font-size: 1.7em;
+    font-size: 2em;
+    font-family: 'roboto';
     display: block;
     color: rgb(255, 255, 255);
 }
@@ -159,7 +156,6 @@ width: 100%;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'caviar_dreamsbold';
-
 }
 .marginbot2 {
     margin-bottom: 2%;
@@ -195,30 +191,35 @@ width: 100%;
     margin-bottom: 6%;
 }
 
-
-
 /* test img portfolio */
 
-.relative {
+.test{
+    height: 254px;
+    width: 280px;
     position: relative;
 }
-.position {
+.plus {
+    height:100%;
+    width: 100%;
     position: absolute;
-    z-index: 99;
-    display: none;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 4rem;
+    opacity: 0;
 }
+.plus:hover {
+    opacity: 0.8;
+    background-color: rgba(0,0,0,0.8);
 
-img:hover {
-    filter: brightness(0.2);
-    
 }
-
 
 /* fin portfolio */
 
-
 /* default section */
-
 
 .defaultsection {
     background: rgba(73, 84, 91, 0.84);
@@ -235,6 +236,7 @@ img:hover {
     display: flex;
 }
 .flexcolumn {
+    display:flex;
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
@@ -251,7 +253,6 @@ img:hover {
 .marginright {
     margin-right: 15%;
 }
-
 .visitme {
     border: 2px solid #000000;
     background:rgba(73, 84, 91, 0.4);
@@ -259,11 +260,9 @@ img:hover {
     padding: 15px 40px;
     text-transform: uppercase;
     font-family: 'Roboto';
-
 }
 
 /* fin section default */
-
 
 /* twitter */
 
@@ -277,7 +276,7 @@ img:hover {
     font-family: 'Roboto';
     font-size:1.7em;
     line-height: 2em;
-    margin:0;
+    margin-top: 4%;
     width: 100%;
 }
 .containernoflex {
@@ -286,9 +285,16 @@ img:hover {
     margin: auto;
     padding: 0;
 }
+.titleh4 {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-family: 'roboto';
+    display: block;
+    color: rgb(255, 255, 255);
+    margin:0;
+}
 
 /* fin twitter */
-
 
 /* john doe */
 
@@ -301,7 +307,6 @@ img:hover {
 .padtop {
     padding-top: 5%;
 }
-
 .display-column1 {
     display: flex;
     flex-direction: column;
@@ -315,7 +320,7 @@ img:hover {
 }
 .colorsizejohn {
     color: rgba(255, 255, 255);
-    font-family: 'roboto';
+    font-family:'roboto';
     font-size: 1.1em;
 }
 .flex-wrap2{
@@ -332,7 +337,6 @@ img:hover {
 }
 
 /* fin john doe */
-
 
 /* testimonials */
 
@@ -361,50 +365,85 @@ img:hover {
     color: rgba(255, 255, 255);
     font-family: 'roboto';
 }
-.textmaj {
-    text-transform: uppercase;
-}
-.forminput {
-    width: 80%;
+.forminput1 {
+    width: 90%;
     background: rgba(73, 84, 91, 0.1);
-    border: 2px solid white;
+    border: 2px solid #fff;
     padding: 30px 0;
+    box-shadow: none;
+}
+input {
+    box-shadow: none;
+}
+.forminput2 {
+    width: 100%;
+    background: rgba(73, 84, 91, 0.1);
+    border: 2px solid #fff;
+    resize: none;
+    box-shadow: none;
+}
+.forminput3 {
+    width: 90%;
+    background: rgba(73, 84, 91, 0.1);
+    border: 2px solid #fff;
+    padding: 30px 0;
+    box-shadow: none;
 }
 .flexcolumn2 {
+    display: flex;
     flex-direction: column;
     justify-content: flex-end;
     width: 100%;
 }
 .margintop2 {
-    margin-top: 8%;
+    margin-top: 5%;
+}
+.margintop3 {
+    margin-top: 3%;;
 }
 .spaceline {
     line-height: 150%;
 }
-.forminput2 {
-    width: 100%;
-    background: rgba(73, 84, 91, 0.1);
-    border: 2px solid white;
-    resize: none;
-    padding: 6% 0;
-}
-.marginzero2 {
-    margin-bottom: 1%;
-    margin-top: 4%;
+.spaceline2 {
+    line-height: 180%;
 }
 .message {
     border: none;
     background:#4bcaff;
     color: #ffffff;
     padding: 15px 0;
-    width: 30%;
+    width: 40%;
     text-transform: uppercase;
     font-family: 'Roboto';
     margin-bottom: 6%;
 }
+.message:hover {
+    background-color: rgb(0, 2, 114);
+}
+.width50 {
+    width: 50%;
+}
+textarea {
+    vertical-align: top;
+    height: 7em;
+}
+input, textarea {
+    font: 1em sans-serif;
+}
+input:focus:valid {
+    border: 2px solid rgb(0, 158, 13);
+    box-shadow: none;
+}
+input:focus:invalid {
+    border: 2px solid rgb(179, 0, 0);
+    box-shadow: none;
+}
+:required {
+    border: 2px solid #fff;
+    box-shadow: none;
+}
 
 /* fin contact */
-
 
 /* footer */
 
@@ -420,3 +459,5 @@ img:hover {
 .padbot2 {
  padding-bottom: 3%;
 }
+
+/* fin footer */
