@@ -459,5 +459,21 @@ input:focus:invalid {
 .padbot2 {
  padding-bottom: 3%;
 }
-
+.nav3 {
+    display:flex;
+    justify-content: flex-start;
+    width:100%;
+    padding: 0;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'caviar_dreamsbold';
+}
+.liform3 {
+    padding:5px 15px;
+    text-decoration: none;
+    margin: 0;
+    color: rgba(0, 0, 0);
+}
 /* fin footer */
