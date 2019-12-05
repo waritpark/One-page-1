@@ -161,7 +161,7 @@
                     <button class="visitme margintop"><strong>visit me</strong></button>
                 </div>
                 <div class="flex-end">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mQlKd6Sgfuw" frameborder="0"
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mQlKd6Sgfuw"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
@@ -234,21 +234,23 @@
         <div class="container padtop">
             <h3 class="width100 titleh3" id="contact"><span class="lineundertitle">Con</span>tact</h3>
         </div>
-        <form>
+        <form action="traitement/add" method="get">
             <div class="container">
                 <div class="flexcolumn">
-                    <label for="name">NAME <br></label>
-                    <input class="forminput1" id="name" type="text" name="username" required>
-                    <label class="margintop2" for="mail">EMAIL <br></label>
-                    <input class="forminput3" id="mail" type="text" required name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]{2,8}$">
+                    <label for="name">NAME *</label>
+                    <input id="name" type="text" name="username" required
+                        placeholder="Entrez votre nom">
+                    <label class="margintop4" for="mail">EMAIL *</label>
+                    <input id="mail" type="email" name="email" required
+                        pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]{2,8}$">
                 </div>
                 <div class="flexcolumn2">
-                    <p class="margintop3 spaceline2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                    <p class="margintop spaceline2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
                         natusillum
                         obcaecati iste mollitia. Fugit est totam eos quidem repellat quasi,
                         ad amet iure reprehenderit veritatis molestias corporis repudiandae ullam?*
                     </p>
-                    <p class="margintop spaceline">
+                    <p class="spaceline margin">
                         Linda Newman <br>
                         W325 Stade Road 123 <br>
                         Mondovi, WI(Wisconsin) 98746-54321 <br>
@@ -257,29 +259,24 @@
                 </div>
             </div>
             <div class="containernoflex">
-                <label for="message">MESSAGE <br></label>
-                <textarea class="forminput2" id="message" name="message">
+                <label for="message" class="margintop3">MESSAGE</label>
+                <textarea id="message" name="message" cols="30" rows="10">
                 </textarea>
                 <div>
-                    <button class="message margintop"><strong>message</strong></button>
+                    <button type="submit" class="message margintop"><strong>message</strong></button>
                 </div>
             </div>
         </form>
     </div>
-
-    </div>
-    </div>
     <footer class="backgroundfooter padtop2 padbot2">
-        <div class="containernoflex">
-            <div class="display-f">
-                    <ul class="nav3" id="nav3">
-                        <li><a href="#home" class="liform3"><strong>Home&nbsp;&nbsp; |</strong></a></li>
-                        <li><a href="#services" class="liform3"><strong>Services &nbsp;&nbsp;|</strong></a></li>
-                        <li><a href="#portfolio" class="liform3"><strong>portfolio&nbsp;&nbsp; |</strong></a></li>
-                        <li><a href="#contact" class="liform3"><strong>contact</strong></a></li>
-                    </ul>
-                <p class="nowrap flex-end">LAFARGE Arthur copyright © 2019</p>
-            </div>
+        <div class="container">
+            <ul class="nav3" id="nav3">
+                <li><a href="#home" class="liform3">Home&nbsp;&nbsp;|</a></li>
+                <li><a href="#services" class="liform3">Services &nbsp;&nbsp;|</a></li>
+                <li><a href="#portfolio" class="liform3">portfolio&nbsp;&nbsp;|</a></li>
+                <li><a href="#contact" class="liform3">contact</a></li>
+            </ul>
+            <p class="nowrap flex-end">LAFARGE Arthur copyright © 2019</p>
         </div>
     </footer>
 

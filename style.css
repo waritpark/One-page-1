@@ -83,7 +83,7 @@ body {
 .header-bottom h1{
     font-family: 'caviar_dreamsregular';
 	color: #FFF;
-	font-size:2.5em;
+	font-size:2.5rem;
 	text-transform: uppercase;
 	background: rgba(0, 0, 0, 0.6);
 	padding: 10px;
@@ -118,8 +118,17 @@ width: 100%;
 .margintop {
     margin-top: 3%;
 }
+.margintop2 {
+    margin-top: 8%;
+}
+.margintop3 {
+    margin-top: 5%;;
+}
+.margintop4 {
+    margin-top: 7%;
+}
 .h3forme {
-    font-size: 1.5em;
+    font-size: 1.5rem;
 	text-transform: uppercase;
 }
 .lineundertitle {
@@ -128,7 +137,7 @@ width: 100%;
 }
 .titleh3 {
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 2rem;
     font-family: 'roboto';
     display: block;
     color: rgb(255, 255, 255);
@@ -138,7 +147,6 @@ width: 100%;
 }
 
 /* fin services */
-
 
 /* portfolio */
 
@@ -163,7 +171,7 @@ width: 100%;
 .titleh3noir {
     font-family: 'roboto';
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 2rem;
     color: rgba(73, 84, 91, 0.84);
     margin:0;
     padding:0;
@@ -214,7 +222,6 @@ width: 100%;
 .plus:hover {
     opacity: 0.8;
     background-color: rgba(0,0,0,0.8);
-
 }
 
 /* fin portfolio */
@@ -274,8 +281,8 @@ width: 100%;
 }
 .texttwitter {
     font-family: 'Roboto';
-    font-size:1.7em;
-    line-height: 2em;
+    font-size:1.7rem;
+    line-height: 2rem;
     margin-top: 4%;
     width: 100%;
 }
@@ -287,7 +294,7 @@ width: 100%;
 }
 .titleh4 {
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 2rem;
     font-family: 'roboto';
     display: block;
     color: rgb(255, 255, 255);
@@ -321,7 +328,7 @@ width: 100%;
 .colorsizejohn {
     color: rgba(255, 255, 255);
     font-family:'roboto';
-    font-size: 1.1em;
+    font-size: 1.1rem;
 }
 .flex-wrap2{
     display: flex;
@@ -342,8 +349,8 @@ width: 100%;
 
 .texttestimonial {
     font-family: 'Roboto';
-    font-size:1.7em;
-    line-height: 2em;
+    font-size:1.7rem;
+    line-height: 2rem;
     margin-bottom: 3%;
     width: 100%;
 }
@@ -352,7 +359,7 @@ width: 100%;
 }
 .walterwhite {
     color:#4bcaff;
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 /* fin testimonials */
@@ -365,29 +372,28 @@ width: 100%;
     color: rgba(255, 255, 255);
     font-family: 'roboto';
 }
-.forminput1 {
-    width: 90%;
-    background: rgba(73, 84, 91, 0.1);
-    border: 2px solid #fff;
-    padding: 30px 0;
-    box-shadow: none;
-}
 input {
     box-shadow: none;
-}
-.forminput2 {
-    width: 100%;
-    background: rgba(73, 84, 91, 0.1);
-    border: 2px solid #fff;
-    resize: none;
-    box-shadow: none;
-}
-.forminput3 {
+    height: 60px;
     width: 90%;
-    background: rgba(73, 84, 91, 0.1);
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 1,8rem;
+    color :white;
+}
+textarea {
+    width: 100%;
     border: 2px solid #fff;
-    padding: 30px 0;
+    resize: vertical;
     box-shadow: none;
+    background-color: transparent;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 1,8rem;
+    color :white;
+    height: 12rem;
 }
 .flexcolumn2 {
     display: flex;
@@ -395,14 +401,11 @@ input {
     justify-content: flex-end;
     width: 100%;
 }
-.margintop2 {
-    margin-top: 5%;
-}
-.margintop3 {
-    margin-top: 3%;;
-}
 .spaceline {
     line-height: 150%;
+}
+.margin {
+    margin:0;
 }
 .spaceline2 {
     line-height: 180%;
@@ -412,7 +415,7 @@ input {
     background:#4bcaff;
     color: #ffffff;
     padding: 15px 0;
-    width: 40%;
+    width: 25%;
     text-transform: uppercase;
     font-family: 'Roboto';
     margin-bottom: 6%;
@@ -423,12 +426,8 @@ input {
 .width50 {
     width: 50%;
 }
-textarea {
-    vertical-align: top;
-    height: 7em;
-}
 input, textarea {
-    font: 1em sans-serif;
+    font: 1rem sans-serif;
 }
 input:focus:valid {
     border: 2px solid rgb(0, 158, 13);
@@ -441,6 +440,12 @@ input:focus:invalid {
 :required {
     border: 2px solid #fff;
     box-shadow: none;
+}
+label {
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 8px;
 }
 
 /* fin contact */
@@ -474,10 +479,40 @@ input:focus:invalid {
     padding:5px 10px;
     text-decoration: none;
     margin: 0;
-    font-size: 1em;
+    font-size: 1rem;
     color: rgba(0, 0, 0);
 }
 .nowrap {
     flex-wrap: nowrap;
 }
+
+
 /* fin footer */
+
+
+/***************** correction *****************/
+
+/* bordure des titres bien fait */
+
+/* h3::after {
+    content: '';
+    display: block;
+    height: 0;
+    border-top: 2px solid white;
+    width: 43px;
+}
+h3.text-color-secondary::after {
+    border-top-color: black;
+} 
+*/
+
+/* pseudo element = ::
+mozilla.org liste pseudo classe */
+
+/* text-color 
+.text-color-primary {
+    color:white;
+}
+*/
+
+/* faire les margin en rem ! 1rem=16px */
